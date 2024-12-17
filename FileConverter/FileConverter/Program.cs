@@ -14,7 +14,7 @@ var personList = new PersonList {
 
 try
 {
-    var sr = new StreamReader(@"C:\FileConverter\FileConverter\input2.txt");
+    var sr = new StreamReader(@"C:\FileConverter\FileConverter\input1.txt");
     line = sr.ReadLine();
 
     while (line != null)
